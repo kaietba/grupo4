@@ -1,6 +1,7 @@
 ---
 deployment:
     tasks:
+    - cd /home/kaietzer/repositories/grupo4 
     - export DEPLOYPATH=/home/kaietzer/sites/Desplieguemanual.kaiet.zerbitzaria.net
     - rm -Rf $DEPLOYPATH/*
     - cp -Rf model $DEPLOYPATH
