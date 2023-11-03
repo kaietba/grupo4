@@ -1,0 +1,8 @@
+---
+deployment:
+    tasks:
+    - export DEPLOYPATH=/home/kaietzer/sites/Desplieguemanual.kaiet.zerbitzaria.net
+    - rm -Rf $DEPLOYPATH/*
+    - cp -Rf model $DEPLOYPATH
+    - cp -Rf view $DEPLOYPATH
+    - cp -Rf controller $DEPLOYPATH
